@@ -93,4 +93,4 @@ Built with a **serverless backend architecture**, the project utilizes **Google 
 ## 🚀 Installation & Local Setup
 
 # 1. Clone the repository
-git clone https://github.com/2022200000149-rantu/SCS.git
+git clone https://github.com/2022200000149-rantu/SCS
