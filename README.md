@@ -9,22 +9,28 @@
 
 ---
 
-## 🔗 Live Preview
+## 🎓 Academic Information & Team
 
-- **Official Website:** [Southeast Cultural Society Live](https://2022200000149-rantu.github.io/SCS/)
+This project was developed as part of the academic coursework at **Southeast University**.
+
+- **Course Title:** Information System Design & Software Engineering Lab
+- **Course Code:** CSE 346.16
+- **Department:** Computer Science & Engineering (CSE)
+- **Faculty Advisor:** **[SDK] Shimul Dey Katha**, Lecturer, Department of CSE, Southeast University
+
+### 👥 Team Members
+
+| Name | Student ID | Role |
+| :--- | :--- | :--- |
+| **Tasfin Apurba** | `2023200000373` | Software Engineering & Development |
+| **Raihan Mahmud Shaikot** | `2023000000222` | Software Engineering & Development |
+| **Rantu Samadder** | `2022200000149` | Software Engineering & Development |
 
 ---
 
-## 📌 Table of Contents
+## 🔗 Live Links
 
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Tech Stack](#-tech-stack)
-- [System Architecture](#-system-architecture)
-- [Database Schema (Google Sheets)](#-database-schema-google-sheets)
-- [API Documentation](#-api-documentation)
-- [Installation & Local Setup](#-installation--local-setup)
-- [Academic Information & Team](#-academic-information--team)
+- **Official Website:** [Southeast Cultural Society Live](https://2022200000149-rantu.github.io/SCS/)
 
 ---
 
@@ -71,30 +77,22 @@ Built with a **serverless backend architecture**, the project utilizes **Google 
 
 ---
 
-## 🏗 System Architecture
+## 📊 Database Schema (Google Sheets)
 
-```mermaid
-graph TD
-    User([User / Browser])
-    Admin([Executive Admin])
-    
-    subgraph Frontend - GitHub Pages
-        UI[HTML5 / CSS3 / JavaScript]
-        Canvas[Canvas Particle Engine]
-        Gallery[Gallery & Modal Engine]
-    end
+| Sheet Name | Schema / Fields | Description |
+| :--- | :--- | :--- |
+| `Admin` | `Username`, `Password`, `Name` | Administrative login credentials |
+| `Membership` | `ID`, `Name`, `Email`, `Phone`, `Department`, `StudentID`, `ApplicationDate`, `Status`, `DigitalID`, `Password` | Membership applications & status records |
+| `Committee` | `ID`, `Name`, `Position`, `Email`, `ImageURL`, `Task` | Executive committee members and assigned tasks |
+| `Gallery` | `ID`, `EventTitle`, `ImageURL`, `UploadDate` | Event photos dynamic registry |
+| `Articles` | `ID`, `Title`, `Content`, `AuthorName`, `AuthorEmail`, `SubmissionDate`, `Status` | Student articles submitted for review |
+| `Notices` | `ID`, `Headline`, `Details`, `RegistrationLink`, `Date` | Public notices and event links |
 
-    subgraph Backend - Google Cloud Environment
-        GAS[Google Apps Script REST API]
-        Cache[CacheService - Session Tokens]
-    end
+---
 
-    subgraph Database Layer
-        GS[(Google Sheets DB)]
-    end
+## 🚀 Installation & Local Setup
 
-    User -->|View Notices, Gallery & Apply| UI
-    Admin -->|Manage Approvals & Content| UI
-    UI <-->|Fetch / Post JSON Data| GAS
-    GAS <-->|Session Verification| Cache
-    GAS <-->|CRUD Operations| GS
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/2022200000149-rantu/SCS.git](https://github.com/2022200000149-rantu/SCS.git)
+   cd SCS
