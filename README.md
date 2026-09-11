@@ -1,4 +1,4 @@
-# 🎭 Southeast Cultural Society (SCS) Web Portal
+# 🎭 Official Website of Southeast Cultural Society
 
 > An interactive, serverless web platform designed to streamline cultural society operations, event announcements, membership management, creative article publications, and digital identity tracking.
 
