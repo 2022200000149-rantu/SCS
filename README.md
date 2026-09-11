@@ -12,7 +12,6 @@
 ## 🔗 Live Preview
 
 - **Official Website:** [Southeast Cultural Society Live](https://2022200000149-rantu.github.io/SCS/)
-- **Digital Member Portal:** [Member ID Verification](https://southeastculturalsociety.github.io/member/)
 
 ---
 
