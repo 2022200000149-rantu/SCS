@@ -94,6 +94,3 @@ Built with a **serverless backend architecture**, the project utilizes **Google 
 
 # 1. Clone the repository
 git clone https://github.com/2022200000149-rantu/SCS.git
-
-# 2. Navigate to the project directory
-cd SCS
