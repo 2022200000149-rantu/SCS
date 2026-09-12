@@ -1,7 +1,7 @@
 <div align="center">
 
-# 🎭 Southeast Cultural Society (SCS)
-### Official Interactive Web Platform
+# 🎭 Official Website of Southeast Cultural Society
+### Interactive Web Platform
 
 > An interactive, serverless web platform designed to streamline cultural society operations, event announcements, membership management, creative article publications, and digital identity tracking.
 
@@ -33,9 +33,9 @@ This project was developed as part of the academic coursework at **Southeast Uni
 
 | Contributor | Student ID | Primary Responsibilities | Profile |
 | :--- | :--- | :--- | :---: |
-| **Tasfin Apurba** | `2023200000373` | Software Engineering & Frontend/Backend Development | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/TasfinApurba) |
-| **Raihan Mahmud Shaikot** | `2023000000222` | Software Engineering & API Integration | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/RaihanShaikot) |
-| **Rantu Samadder** | `2022200000149` | Software Engineering, System Architecture & Deployment | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/2022200000149-rantu) |
+| **Tasfin Apurba** | `2023200000373` | Software Engineering & Frontend/Backend Development | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)]([https://github.com/TasfinApurba](https://github.com/apurba200327)) |
+| **Raihan Mahmud Shaikot** | `2023000000222` | Software Engineering & API Integration | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)]([https://github.com/RaihanShaikot](https://github.com/raihan0-hub)) |
+| **Rantu Samadder** | `2022200000149` | Software Engineering, System Architecture & Deployment | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)]([https://github.com/2022200000149-rantu](https://github.com/2022200000149-rantu)) |
 
 ### 🤝 Guidance & Supervision
 Special thanks to **[SDK] Shimul Dey Katha** for continuous technical mentorship and evaluation throughout the software development lifecycle.
@@ -108,7 +108,7 @@ Built with a **serverless backend architecture**, the project utilizes **Google 
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/2022200000149-rantu/SCS.git](https://github.com/2022200000149-rantu/SCS.git)
+git clone https://github.com/2022200000149-rantu/SCS
 
 # 2. Navigate to project directory
 cd SCS
