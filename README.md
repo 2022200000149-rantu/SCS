@@ -103,15 +103,3 @@ Built with a **serverless backend architecture**, the project utilizes **Google 
 | `Notices` | `ID`, `Headline`, `Details`, `RegistrationLink`, `Date` | Public notices and event links |
 
 ---
-
-## 🚀 Installation & Local Setup
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/2022200000149-rantu/SCS
-
-# 2. Navigate to project directory
-cd SCS
-
-# 3. Open in browser (or launch with Live Server)
-open index.html
