@@ -101,5 +101,11 @@ Built with a **serverless backend architecture**, the project utilizes **Google 
 | `Gallery` | `ID`, `EventTitle`, `ImageURL`, `UploadDate` | Event photos dynamic registry |
 | `Articles` | `ID`, `Title`, `Content`, `AuthorName`, `AuthorEmail`, `SubmissionDate`, `Status` | Student articles submitted for review |
 | `Notices` | `ID`, `Headline`, `Details`, `RegistrationLink`, `Date` | Public notices and event links |
+## 🤝 Contributors
 
+Thanks to all the people who contribute to this project!
+
+<a href="https://github.com/2022200000149-rantu/SCS/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=2022200000149-rantu/SCS" alt="Contributors" />
+</a>
 ---
