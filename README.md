@@ -1,15 +1,22 @@
-# 🎭 Official Website of Southeast Cultural Society
+<div align="center">
+
+# 🎭 Southeast Cultural Society (SCS)
+### Official Interactive Web Platform
 
 > An interactive, serverless web platform designed to streamline cultural society operations, event announcements, membership management, creative article publications, and digital identity tracking.
 
-![Live Web Page](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
-![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-blue?style=for-the-badge&logo=github)
-![Google Apps Script](https://img.shields.io/badge/Backend-Google%20Apps%20Script-4285F4?style=for-the-badge&logo=google)
-![Google Sheets DB](https://img.shields.io/badge/Database-Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets)
+[![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge&logo=render)](https://2022200000149-rantu.github.io/SCS/)
+[![Hosting](https://img.shields.io/badge/Hosting-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://2022200000149-rantu.github.io/SCS/)
+[![Backend](https://img.shields.io/badge/Backend-Google%20Apps%20Script-4285F4?style=for-the-badge&logo=google)](https://developers.google.com/apps-script)
+[![Database](https://img.shields.io/badge/Database-Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets)](https://www.google.com/sheets/about/)
+
+[🌐 **Visit Live Web Portal**](https://2022200000149-rantu.github.io/SCS/) • [🐞 Report Issue](https://github.com/2022200000149-rantu/SCS/issues) • [✨ Request Feature](https://github.com/2022200000149-rantu/SCS/issues)
+
+</div>
 
 ---
 
-## 🎓 Academic Information & Team
+## 🎓 Academic Information
 
 This project was developed as part of the academic coursework at **Southeast University**.
 
@@ -18,19 +25,26 @@ This project was developed as part of the academic coursework at **Southeast Uni
 - **Department:** Computer Science & Engineering (CSE)
 - **Faculty Advisor:** **[SDK] Shimul Dey Katha**, Lecturer, Department of CSE, Southeast University
 
-### 👥 Team Members
+---
 
-| Name | Student ID | Role |
-| :--- | :--- | :--- |
-| **Tasfin Apurba** | `2023200000373` | Software Engineering & Development |
-| **Raihan Mahmud Shaikot** | `2023000000222` | Software Engineering & Development |
-| **Rantu Samadder** | `2022200000149` | Software Engineering & Development |
+## 👥 Contributors & Development Team
+
+### 🌟 Core Contributors
+
+| Contributor | Student ID | Primary Responsibilities | Profile |
+| :--- | :--- | :--- | :---: |
+| **Tasfin Apurba** | `2023200000373` | Software Engineering & Frontend/Backend Development | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/TasfinApurba) |
+| **Raihan Mahmud Shaikot** | `2023000000222` | Software Engineering & API Integration | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/RaihanShaikot) |
+| **Rantu Samadder** | `2022200000149` | Software Engineering, System Architecture & Deployment | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/2022200000149-rantu) |
+
+### 🤝 Guidance & Supervision
+Special thanks to **[SDK] Shimul Dey Katha** for continuous technical mentorship and evaluation throughout the software development lifecycle.
 
 ---
 
 ## 🔗 Live Links
 
-- **Official Website:** [Southeast Cultural Society Live](https://2022200000149-rantu.github.io/SCS/)
+- 🌐 **Official Website:** [Southeast Cultural Society Live](https://2022200000149-rantu.github.io/SCS/)
 
 ---
 
@@ -38,7 +52,7 @@ This project was developed as part of the academic coursework at **Southeast Uni
 
 The **Southeast Cultural Society (SCS)** portal serves as a unified digital platform for managing the society’s cultural events, executive committee, recruitment, photo gallery, and member articles.
 
-Built with a **serverless backend architecture**, the project utilizes **Google Apps Script** as a middleware REST API and **Google Sheets** as a database engine. This allows real-time dynamic data rendering on a responsive HTML5/CSS3 frontend without requiring traditional server infrastructure or database hosting fees.
+Built with a **serverless backend architecture**, the project utilizes **Google Apps Script** as a middleware REST API and **Google Sheets** as a relational database engine. This allows real-time dynamic data rendering on a responsive HTML5/CSS3 frontend without requiring traditional server infrastructure or database hosting fees.
 
 ---
 
@@ -92,5 +106,12 @@ Built with a **serverless backend architecture**, the project utilizes **Google 
 
 ## 🚀 Installation & Local Setup
 
+```bash
 # 1. Clone the repository
-git clone https://github.com/2022200000149-rantu/SCS
+git clone [https://github.com/2022200000149-rantu/SCS.git](https://github.com/2022200000149-rantu/SCS.git)
+
+# 2. Navigate to project directory
+cd SCS
+
+# 3. Open in browser (or launch with Live Server)
+open index.html
